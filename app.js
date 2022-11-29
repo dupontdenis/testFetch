@@ -3,7 +3,7 @@ const run = async () => {
 
     try {
         
-        data = await fetch("https://reqres.in/api/login",{
+        data = await fetch("https://reqres.in/api/user",{
             method: "POST",
             headers: {
                 'content-Type': 'application/json'
